@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[WebComponents.org]]></title>
+        <description><![CDATA[A place to discuss and evolve Web Component best-practices]]></description>
+        <link>http://webcomponents.org</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 20 Apr 2015 16:40:33 GMT</lastBuildDate>
+        <atom:link href="http://webcomponents.org/articles.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 20 Apr 2015 16:39:52 GMT</pubDate>
+        <item>
+            <title><![CDATA[Web Components punch list]]></title>
+            <description><![CDATA[<p>Considerations for web component and custom control design:</p>
+<p>If your control has the stuff below covered, excellent! If not then please implement it before shouting to the world about it being the next big thing. Or at least document its deficits and provide a health warning that the control is incomplete and not fit to use in production.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/web-components-punch-list</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/web-components-punch-list</guid>
+            <pubDate>Mon, 20 Apr 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What EXACTLY is Polymer?]]></title>
+            <description><![CDATA[<p>So you&#39;ve been listening to a bunch of new stuff
+There are so many new libraries, so many news concepts,
+Many people still struggle
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor mollitia eligendi similique cupiditate id iusto, quis incidunt dolorum perspiciatis quaerat, deleniti neque quidem error earum magnam reprehenderit recusandae aliquid modi.</p>
+<!-- Excerpt -->
+<h3 id="what-problem-does-polymer-tries-to-solve-">What problem does Polymer tries to solve?</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ullam, voluptatem, earum eaque ad itaque iusto repellendus corporis nihil delectus placeat. Voluptates sapiente culpa provident facilis quod earum aut, saepe!</p>
+<p>Polymer also provides additional sugaring APIs to meet the demands of today’s web applications.</p>
+<p>No. Polymer is more than a syntax sugar for Web Components, it&#39;s an optionated library that comes with other features such as data-binding.</p>
+<h3 id="is-polymer-a-polyfill-for-web-components-">Is Polymer a polyfill for Web Components?</h3>
+<p>which means that is just a library. As a comparision, jQuery is a library that abstracts DOM and other browser APIs for you. Polymer is also an abstraction to browser APIs such as Custom Elements, Templates, Shadow DOM, HTML Imports.</p>
+<p>People have this feeling because in the past Polymer used to bundle a polyfill called <code>platform.js</code>, which has been renamed to <code>webcomponents.js</code> and moved to a different repository [1].</p>
+<p><a href="https://www.polymer-project.org/images/architecture-diagram.svg">https://www.polymer-project.org/images/architecture-diagram.svg</a></p>
+<p><a href="https://blog.polymer-project.org/2014/10/16/platform-becomes-webcomponents/">https://blog.polymer-project.org/2014/10/16/platform-becomes-webcomponents/</a></p>
+<p><img src="/img/stories/what-exactly-is-polymer.jpg" alt="Polymer Layers Chart"></p>
+<p>You see, polyfills enables you to use a feature that is not available in certain browsers yet. The thing is, there are several Web Components features that have already shipped in some browsers. Therefore, it really depends on each browsers do you need to support.</p>
+<h3 id="how-is-polymer-different-from-angular-ember-or-react-">How is Polymer different from Angular, Ember, or React?</h3>
+<p>These frameworks are designed to be a full solution for web app development. They provide things like controllers, routing, dependency injection, among other functionalities that aren&#39;t provided in Polymer&#39;s core library.</p>
+<p>However, they do have some overlap features. Some parts of Polymer can be compared to <a href="https://docs.angularjs.org/guide/directive">Angular&#39;s directives</a>, since they both offer a declarative custom element API. Same with <a href="http://emberjs.com/api/classes/Ember.Component.html">Ember components</a> and <a href="https://facebook.github.io/react/docs/component-api.html">React components</a> that provides declarative event and data bindings just like Polymer does.</p>
+<p>That e</p>
+<h3 id="how-is-material-design-related-to-polymer-">How is Material Design related to Polymer?</h3>
+<p><a href="http://google.com/design/spec">Material Design</a> is a visual, motion, and interaction design proposal made by Google. It is incorporated on Android and most of Google&#39;s mobile apps.</p>
+<p>There are several implementations of Material Design for the web, some even using <a href="https://material.angularjs.org/">Angular</a> and <a href="http://material-ui.com/">React</a>. The <a href="https://www.polymer-project.org/0.5/components/paper-elements/demo.html">Paper Elements</a> collection is Polymer&#39;s implementation using Web Components.</p>
+<h3 id="is-polymer-going-to-save-the-world-">Is Polymer going to save the world?</h3>
+<p>I&#39;m sorry to say that but no, neither Web Components are. But wait, that doesn&#39;t mean you shouldn&#39;t be excited about it.</p>
+<!-- paper-elements
+
+https://www.polymer-project.org/0.5/resources/faq.html#materialdesign
+
+
+https://www.polymer-project.org/0.5/resources/faq.html#filesize
+
+http://webtech-cs294.tumblr.com/post/111747395475/on-polymer
+https://plus.google.com/+FaizM/posts/UdHUEe87bdx
+
+
+### For more info:
+
+https://www.polymer-project.org/0.5/resources/faq.html
+
+https://www.polymer-project.org/0.5/resources/faq.html#uiframeworks -->]]></description>
+            <link>http://webcomponents.org/articles/what-exactly-is-polymer</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/what-exactly-is-polymer</guid>
+            <pubDate>Thu, 16 Apr 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why invest in Web Components?]]></title>
+            <description><![CDATA[<p>If we could list a Top 10 Web Components&#39; Early Adopters, this guy would definitely be one of them. He&#39;s the founder of <a href="https://divshot.com/">Divshot</a>, a company that helps developers build better static web apps, and created several tools that you might heard already.</p>
+<p>Ladies and gentlemen, let&#39;s continue our <a href="/tags/interview">interview series</a> with <a href="https://twitter.com/mbleigh">Michael Bleigh</a> sharing his motivations behind Web Components.</p>
+<!-- Excerpt -->
+<h3 id="your-company-launched-some-really-interesting-projects-around-web-components-what-motivates-you-to-invest-on-this-">Your company launched some really interesting projects around Web Components. What motivates you to invest on this?</h3>
+<p>It&#39;s pretty simple, really. I&#39;m investing in Web Components because in two to three years every web application being built will be using them extensively. Web Components represent the most important advancement in browser technology since AJAX. I&#39;ve always been driven to make things that make web development better, and there&#39;s no better place to be doing that right now.</p>
+<p>I started Divshot with the goal of building a platform for the front-end as sophisticated as the platforms we have for the back-end. Modern browsers are incredibly capable software platforms, and those small gaps that do exist are being plugged by Web Components (also Service Workers). If we invest in Web Components today, we&#39;ll have deeper and better knowledge of how to build our products for the future.</p>
+<p>Most developers don&#39;t yet know what Web Components are, much less why they should care. It won&#39;t be long, however, until the first killer app for Web Components is going to ship. After that, it&#39;s all gravity. I&#39;m just be thrilled to play a part (however small or large) in the coming revolution.</p>
+<h3 id="every-developer-has-their-own-workflow-to-compose-and-share-their-web-components-how-do-you-think-tools-like-ele-io-https-ele-io-can-improve-that-">Every developer has their own workflow to compose and share their Web Components. How do you think tools like <a href="https://ele.io/">ele.io</a> can improve that?</h3>
+<p>Online tools are going to play a prominent role in a Web Components world. Ele is just one small expression of that. I love Web Components for what they offer me as a seasoned web developer, but the possibilities are mind-boggling if you think of the potential uses for less-experienced developers. A structured language like HTML is fundamentally easier to grasp to outsiders than learning to write JavaScript.</p>
+<p>Today, you can sit down with a newcomer, the Bootstrap docs (or a tool like Divshot), and a couple of hours and you can show them how to piece together a non-interactive web page. With Web Components, that capability is orders of magnitude greater. We&#39;re already seeing how previously &quot;script-only&quot; things are becoming declarative thanks to Web Components (like <code>&lt;google-map&gt;</code> or <code>&lt;core-ajax&gt;</code>). I don&#39;t know where exactly the road leads, but tools built from the ground up for Web Components have the potential to do things that I could only dream about two years ago.</p>
+<p>There&#39;s never going to be a one-size-fits all workflow for web development. That&#39;s why perhaps the greatest advantage Web Components offer is interoperability. One person can build something with X-Tag, another can build with Polymer, and amazingly those two elements can function well together! We&#39;re so accustomed to framework silos (jQuery plugins, Angular directives, etc. etc.) that it&#39;s almost hard to imagine a more compatible world.</p>
+<h3 id="-built-with-polymer-http-builtwithpolymer-org-was-another-nice-initiative-to-highlight-the-community-s-work-is-there-anything-you-think-the-community-is-still-missing-that-could-help-it-grow-"><a href="http://builtwithpolymer.org/">Built with Polymer</a> was another nice initiative to highlight the community&#39;s work. Is there anything you think the community is still missing that could help it grow?</h3>
+<p>There are two ways to grow the usage of any technology: top-down and bottom-up. I think there are big opportunities for both in the Web Components world.</p>
+<p>The path to bottom-up adoption is already happening. All it takes is for people to build cool reusable custom elements that provide a better developer experience than anything available in existing frameworks and libraries. We don&#39;t have a sure-fire killer app just yet (though core and paper elements are really addictive), but I&#39;m convinced we&#39;ll get there soon. I&#39;d also like to see modern front-end libraries ship with an official Web Components option as part of the best practices for releasing something. It would be great to see jaw-dropping projects like Impulse get an &quot;official&quot; (or at least blessed) Web Components wrapper.</p>
+<p>The top-down approach is also interesting. All it will take is for a major property like Facebook, Twitter, or YouTube to offer official custom elements as the primary way to embed their content and you&#39;ll see adoption skyrocket overnight. Imagine if putting a Like button on your website was done with an import link and an <code>&lt;fb-like&gt;</code> tag instead of the current hacked-together custom way. For that to happen, though, we&#39;re going to have to see browser support that gives the major players confidence to make that kind of move. It&#39;s probably at least a year or two out.</p>
+<h3 id="you-created-one-of-the-first-web-components-meetups-http-www-meetup-com-web-components-la-in-los-angeles-ca-do-you-think-there-is-enough-content-for-an-event-dedicated-to-that-area-what-are-your-plans-for-it-">You created one of the <a href="http://www.meetup.com/Web-Components-LA">first Web Components meetups</a> in Los Angeles, CA. Do you think there is enough content for an event dedicated to that area? What are your plans for it?</h3>
+<p>I was pretty surprised when I looked and there wasn&#39;t already one in the Bay Area. I guess maybe LA&#39;s just a little bit ahead right now when it comes to tech. ;)</p>
+<p>There&#39;s plenty of content, but not always enough people who know the content and want to present it. We&#39;re building a community from scratch so I&#39;ve accepted that I&#39;ll be presenting something almost every month for a while. But for content, there&#39;s a Web Components spin that can be put on any topic pertinent to front-end development in general today. There are hundreds of HTML5, Angular, Ember, etc. meetups, and someday there will be hundreds of Web Components meetups as well!</p>
+<p>My plans for the group? First we get people excited about Web Components, then we get them building and sharing reusable elements, then we take over the world! Or just build really cool stuff, that last bit&#39;s still up in the air.</p>
+<hr>
+<h2 id="credits">Credits</h2>
+<ul>
+<li>Questions written by <a href="https://twitter.com/zenorocha">Zeno Rocha</a> and <a href="https://twitter.com/rob_dodson">Rob Dodson</a>.</li>
+</ul>
+]]></description>
+            <link>http://webcomponents.org/articles/interview-with-michael-bleigh</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/interview-with-michael-bleigh</guid>
+            <pubDate>Mon, 06 Apr 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webcomponents.js 0.6.0 release]]></title>
+            <description><![CDATA[<p>Exciting news - the 0.6.0 version of the <code>webcomponents.js</code> polyfills has been <a href="https://github.com/webcomponents/webcomponentsjs/tree/v0.6.0">released</a>. A lot of critical fixes are in this release - highlights are described below.</p>
+<!-- Excerpt -->
+<p>This also marks about 6 months since the polyfills were moved from the Polymer organization over to WebComponents.org. Here are some stats comparing the Polymer/platform repository activity in the six months prior to the move (the precursor to webcomponents.js), to the WebComponents/webcomponentsjs repository in the six months since its creation:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>platform</th>
+<th>webcomponentsjs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Contributors</td>
+<td>3</td>
+<td>26</td>
+</tr>
+<tr>
+<td>Commits</td>
+<td>64</td>
+<td>155</td>
+</tr>
+<tr>
+<td>Non-Polymer Team Contributors</td>
+<td>0</td>
+<td>19</td>
+</tr>
+<tr>
+<td>Non-Polymer Team Commits</td>
+<td>0</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+<p>A few things you&#39;ll note:</p>
+<ul>
+<li>Huge increase in activity overall.</li>
+<li>Large chunk of commits are now coming from outside the Polymer team.</li>
+<li>The Polymer team&#39;s activity on the polyfills has picked up significantly as well.</li>
+</ul>
+<p>All of these things are great news for the future of the polyfills and the continued growth of Web Components - we couldn&#39;t be more excited.</p>
+<p>On to the highlights of 0.6.0:</p>
+<ul>
+<li>Relative path resolving in CSS <a href="https://github.com/webcomponents/webcomponentsjs/issues/134">is fixed</a>. Previously if a stylesheet referenced a file with a relative path, under the Shadow DOM, the path would not be resolved correctly.  A major shout-out to <a href="https://github.com/nazar-pc">nazar-pc</a>, who created a PR that fixes this.</li>
+<li><code>flags.log.split</code> <a href="https://github.com/webcomponents/webcomponentsjs/pull/223">no longer throws an error</a> upon loading webcomponent polyfills.</li>
+<li><code>Node.isEqualNode</code> and <code>document.createTreeWalker</code> <a href="https://github.com/webcomponents/webcomponentsjs/pull/227">are now implemented</a>. Thank you to <a href="https://github.com/eeid26">eeid26</a> for writing the implementations of these such that they work under the polyfill.</li>
+<li>Patched <code>importNode</code> to work around IE11 bug. This was a major blocker for IE11 support, and <a href="https://github.com/webcomponents/webcomponentsjs/pull/226">is now fixed</a>.</li>
+<li>Added <code>nodeValue</code> to cdata. Under the polyfill, the CharacterData prototype didn&#39;t have nodeValue accessors. <a href="https://github.com/webcomponents/webcomponentsjs/pull/225">Now it does</a>.</li>
+<li>Fixed the <code>makeScopeMatcher</code> regular expression. Thank you to <a href="https://github.com/vicb">vicb</a> for pointing this out and <a href="https://github.com/webcomponents/webcomponentsjs/pull/205">fixing it</a>!</li>
+<li>We&#39;re now actively testing against EdgeHTML in IE - as close to you can get to IE&#39;s new <a href="http://blogs.msdn.com/b/ie/archive/2015/03/18/rendering-engine-updates-in-march-for-the-windows-10-technical-preview.aspx">Spartan rendering engine</a> - and are making sure the changes work fine there too.</li>
+<li><a href="https://github.com/webcomponents/webcomponentsjs#known-issues">Known Issues</a> section added to the <code>README</code>. There is a subset of issues that come up with the Polyfills that are just fundamentally unsolvable - usually due to a bug in a browser version, or just the basic inability to truly and completely polyfill the power that is ShadowDOM. A list of Known Issues has been added to the <code>README</code> to document where these sharp edges come up, and how to work around them.</li>
+</ul>
+<p>We&#39;ll be regularly releasing <code>webcomponents.js</code> as fixes come in - keep the PR&#39;s and issues coming!</p>
+]]></description>
+            <link>http://webcomponents.org/articles/polyfills-0-6-0</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/polyfills-0-6-0</guid>
+            <pubDate>Fri, 27 Mar 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bringing Custom Elements to IE8]]></title>
+            <description><![CDATA[<p>Bringing modern Web standards to old browsers is always challenging, sometimes nearly impossible, but always beneficial for a graceful migrations approach.</p>
+<p>Before his latest talk in Helsinki, Andrea managed to accomplish something unexpected and relatively simple: he manged to make his Custom Element&#39;s <code>document.registerElement</code> <a href="https://github.com/WebReflection/document-register-element#document-register-element">polyfill</a> compatible with Internet Explorer 8 too, together with the already wide list of old Mobile platforms supported since the very beginning.</p>
+<p>As result, when it&#39;s needed, and with a little extra effort, it is now possible to create components that won&#39;t break the old, even if not so good, Web platform.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/bringing-custom-elements-to-ie8</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/bringing-custom-elements-to-ie8</guid>
+            <pubDate>Fri, 20 Mar 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A W3C Custom Elements Alternative]]></title>
+            <description><![CDATA[<p>ES6 introduced some goodness to JavaScript, and Weak or Set Maps are part of it. However, it is not entirely possible to polyfill these features without risking to be a bit obtrusive and not so backward compatible. When <code>webcomponents.js</code> initially went out, it was lacking support for older browsers and bringing in external arbitrary polyfills that were not playing so well together with few other libraries. On top of that, it was bringing features that if used on Android 2 phones or other cheap devices, where not performing so well and hence not that useful as part of the library.</p>
+<p>In order to avoid these little obstacles and brings at least Custom Elements out of the entire Web Components family in older Mobile browsers too, Andrea Giammarchi decided to invest some time and create a <code>document.registerElement</code> only polyfill with the goal of supporting as many mobile platforms as possible, and in a reasonable size over decent performance.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/a-w3c-custom-elements-alternative</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/a-w3c-custom-elements-alternative</guid>
+            <pubDate>Fri, 20 Mar 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A Bet on Web Components and Ember.Component Synchronicity]]></title>
+            <description><![CDATA[<p>The Ember community is no stranger to componentization. The team for this JavaScript framework has
+been working hard on the implementation of Ember.Components as well as integrating these seemlessly
+with standard Web Components.</p>
+<p>The boundaries between Ember.Components and a Web Components are beginning to blur more and more.
+Making these two component models work together should be fairly easy.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/a-bet-on-web-components-and-embercomponent-synchronicity</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/a-bet-on-web-components-and-embercomponent-synchronicity</guid>
+            <pubDate>Wed, 04 Mar 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Polymer 0.8 Sneak Peek]]></title>
+            <description><![CDATA[<p>The next release of Polymer, 0.8, is going to be a doozy. It&#39;s the first release
+on the &quot;heading towards production&quot; track and it&#39;s going to have some pretty
+massive differences from previous versions. So what exactly is new, and what&#39;s
+changing?</p>
+<p><em>Note: This data was gathered primarily from reading the
+<a href="https://github.com/Polymer/polymer/blob/0.8-preview/PRIMER.md">Polymer 0.8 Primer</a>
+which is very, very extensive. I&#39;m just hitting the highlights. Also note that
+any of this could change before the final release is cut.</em></p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/polymer-0-8-sneak-peek</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/polymer-0-8-sneak-peek</guid>
+            <pubDate>Mon, 23 Feb 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Best Practice for Creating Custom Elements]]></title>
+            <description><![CDATA[<p>It looks like custom elements, and web components in general, are beginning to
+break through into general developer consciousness, as I see more and more
+articles and talks discussing what they are, what they are good for, and how to
+make them.</p>
+<p>As they’re not yet being used heavily in development, however, I think there’s a
+good opportunity to define best practices in the way we use them. In this post I
+want to propose a best practice method for writing custom elements: I’ll do that
+by comparing two methods for creating custom elements, along with the advantages
+and drawbacks of each.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/best-practice-creating-custom-elements</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/best-practice-creating-custom-elements</guid>
+            <pubDate>Mon, 16 Feb 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Creating a Polymer Chat App with Material Design]]></title>
+            <description><![CDATA[<p>We’ve published a wide variety of demos and tutorials showing you how to build a realtime chatroom with JavaScript; 10Chat with only 10 lines of JavaScript, AngularJS chat, going “native” with PhoneGap for Android and iOS, etc.</p>
+<p>I am showing how to create yet another chat app with Material Design using Polymer to create a simple but visually appealing app with a great user-experience.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/creating-polymer-chat-app-material-design</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/creating-polymer-chat-app-material-design</guid>
+            <pubDate>Sat, 14 Feb 2015 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
